@@ -30,10 +30,18 @@ In this project, we analyze the sentiment and emotion of hundreds of thousands o
 
 <h2>Installation:</h2>
 To run this project, you'll need to install the necessary Python libraries. The key dependencies are:
+
+```bash
 pip install pandas numpy matplotlib nltk transformers
+```
+
 If you're working on Google Colab, you can directly mount your Google Drive to access the datasets using the following code:
+
+```python
 from google.colab import drive
 drive.mount('/content/drive', force_remount=True)
+```
+
 
 <h2>Dataset Details:</h2>
 The datasets consist of Reddit comments from political subreddits, categorized into left and right political groups. The files used in this analysis are:
