@@ -35,7 +35,7 @@ To run this project, you'll need to install the necessary Python libraries. The 
 pip install pandas numpy matplotlib nltk transformers
 ```
 
-If you're working on Google Colab, you can directly mount your Google Drive to access the datasets using the following code:
+If you're working on Google Colab(recommended), you can directly mount your Google Drive to access the datasets using the following code:
 
 ```python
 from google.colab import drive
